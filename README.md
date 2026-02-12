@@ -1,18 +1,18 @@
-Offensive LLMOps: Mapping the Temperature Efficiency Curve ($\tau$) for Autonomous Hacking Agents
+# Offensive LLMOps: Mapping the Temperature Efficiency Curve ($\tau$) for Autonomous Hacking Agents
 
-🎯 Visao Geral
+## 🎯 Visão Geral
 Este estudo investiga o impacto critico do hiperparametro Temperatura ($\tau$) no desempenho de agentes de LLM durante operacoes ofensivas autonomas. Embora LLMs ja tenham demonstrado capacidades estrategicas em simulacoes de ciberataques, a relacao entre estocasticidade e sucesso de intrusao ainda e uma "caixa preta".
 
 O objetivo deste projeto e definir a Stochastic Resonance Zone: o ponto em que o ruido controlado ajuda o agente a escapar de loops logicos sem perder a coerencia sintatica necessaria para executar exploits.
 
-🔬 Hipotese Cientifica
+## 🔬 Hipotese Cientifica
 A relacao entre temperatura e sucesso de intrusao tende a seguir uma distribuicao em "U" invertido:
 
 - **Stagnation Zone** ($\tau < 0.3$): rigidez excessiva, loops infinitos e comandos repetidos.
 - **Stochastic Resonance Zone** ($0.4 \le \tau \le 0.7$): equilibrio ideal entre criatividade e precisao sintatica.
 - **Hallucination Zone** ($\tau > 0.8$): alta entropia, uso de ferramentas inexistentes, CVEs imaginarias e "soliloquizing".
 
-🛠 Metodologia
+## 🛠 Metodologia
 Agente customizado baseado em Gemini-CLI e no paradigma ReAct (Reasoning + Acting), testado em ambientes controlados.
 
 **Ambientes**
@@ -25,14 +25,14 @@ Agente customizado baseado em Gemini-CLI e no paradigma ReAct (Reasoning + Actin
     - **Success Rate**: captura de flags/acesso administrativo.
     - **Operational Cost**: numero de turnos e tokens ate o objetivo.
 
-📚 Literatura Selecionada
+## 📚 Literatura Selecionada
 Este repositorio inclui uma selecao curada de 40 artigos obtidos via filtragem sistematica na Scopus, com foco em:
 
 
 ...
 
 
-🧭 Fluxo da Revisao Sistematica (Mermaid)
+## 🧭 Fluxo da Revisao Sistematica (Mermaid)
 ```mermaid
 graph TD
     %% --- CONFIGURAÇÃO DE ESTILO CIENTÍFICO (FIXED) ---
@@ -73,7 +73,7 @@ graph TD
     end
 ```
 
-🚀 Principais Contribuicoes
+## 🚀 Principais Contribuicoes
 - **Calibration Protocol**: diretrizes para ajuste de hiperparametros em red teaming autonomo.
 - **Efficiency Curve Mapping**: dados empiricos para transformar o pentest com LLM em processo cientifico.
 - **Safety Benchmarking**: impacto da temperatura no bypass de alinhamento em modelos abertos.
